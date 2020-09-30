@@ -1,1 +1,232 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+  font-family: "HelveticaneueLTStdMd";
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #001b5e;
+  font-family: "HelveticaneueLTStdMd", sans-serif;
+}
+
+p {
+  font-family: "HelveticaneueLTStdMd", sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #282828;
+}
+
+h2 {
+  font-size: 44px;
+  line-height: 28px;
+  color: #001b5e;
+  font-weight: 600;
+  line-height: 1.222;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:focus, .button:focus, button:focus, .btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+}
+/**************menu part start*****************/
+.main_menu .navbar-brand {
+  padding: 0rem !important;
+}
+
+.main_menu .navbar {
+  padding: 0px 0px;
+}
+
+.main_menu .navbar-toggler span {
+  font-size: 30px;
+}
+
+.main_menu .main-menu-item {
+  text-align: center;
+  justify-content: center !important;
+}
+
+.main_menu .main-menu-item ul li .nav-link {
+  color: #ffffff;
+  font-size: 24px;
+  padding: 0px 24px;
+  margin: 0 25px;
+  font-family: "HelveticaneueLTStdMd", sans-serif;
+}
+
+.main_menu .main-menu-item ul li .nav-link:hover {
+  color: #ffffff;
+}
+/*.main_menu .main-menu-item ul .btn_1 { color: #fff; font-size: 14px; padding: 11.5px 33px;margin-left: 75px;}*/
+/**************** hero part css end ****************/
+.experiance_part {
+  position: relative;
+  z-index: 99;
+  margin-top: 0;
+/*background: url('../assets/images/Layer29copy.jpg') center 0 no-repeat;*/;
+}
+
+.about_part {
+  background-color: #6aa21b;
+}
+
+.experiance_part .container {
+  padding: 20px 35px 0;
+  background-color: #ffffff;
+}
+
+.about_part .about_part_text .btn_1 {
+  margin-top: 6px;
+}
+
+.experiance_part .about_text_iner {
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.experiance_part .about_text_iner .about_iner_content h3 {
+  color: #83868c;
+  display: inline-block;
+}
+
+.experiance_part .about_text_iner .about_iner_content span {
+  color: #001b5e;
+  display: block;
+}
+
+.footer-area {
+  background-color: #5a8221;
+  padding: 50px 0 50px;
+}
+
+.footer-area .single-footer-widget p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.footer-area .single-footer-widget h4 {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 24px;
+  color: #334702;
+  text-transform: uppercase;
+}
+/* Home page */
+.navbar-brand {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.container {
+  max-width: 960px !important;
+  position: relative;
+}
+
+.home_menu .container {
+  position: relative;
+}
+
+.home_menu .row {
+  background-color: rgba(224, 0, 10, 0.8);
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  background-color: #b2ec39;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.msg-info {
+  background-color: #ffcb05;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  padding: 10px 50px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.whitebg {
+  background-color: #ffffff;
+  padding: 30px 0;
+}
+
+.highlight {
+  color: #334702;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.about_part_img2 {
+  margin-left: -15px;
+}
+
+.section2 .about_part_text {
+  margin-top: 30px;
+}
+
+.section2 .about_part_text p {
+  color: #ffffff;
+  line-height: 22px;
+}
+
+.banner_part {
+  position: relative;
+}
+
+.experiance_part {
+  position: relative;
+  z-index: 99;
+  margin-top: 0;
+  background: url('assets/images/Layer29copy.jpg') center 0 no-repeat;
+}
